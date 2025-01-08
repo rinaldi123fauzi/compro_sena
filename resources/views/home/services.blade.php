@@ -100,21 +100,40 @@
 
         #engineering {
             scroll-margin-top: 100px;
-            /* Adjust value based on your header height */
+            scroll-behavior: smooth;
+            -webkit-scroll-margin-top: 100px;
+            /* Safari support */
+            padding-top: 100px;
+            margin-top: -100px;
         }
 
         #survey {
             scroll-margin-top: 100px;
+            scroll-behavior: smooth;
+            -webkit-scroll-margin-top: 100px;
+            /* Safari support */
+            padding-top: 100px;
+            margin-top: -100px;
             /* Adjust value based on your header height */
         }
 
         #inspection {
             scroll-margin-top: 100px;
+            scroll-behavior: smooth;
+            -webkit-scroll-margin-top: 100px;
+            /* Safari support */
+            padding-top: 100px;
+            margin-top: -100px;
             /* Adjust value based on your header height */
         }
 
         #consultant {
             scroll-margin-top: 100px;
+            scroll-behavior: smooth;
+            -webkit-scroll-margin-top: 100px;
+            /* Safari support */
+            padding-top: 100px;
+            margin-top: -100px;
             /* Adjust value based on your header height */
         }
 

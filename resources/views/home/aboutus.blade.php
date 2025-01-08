@@ -43,7 +43,7 @@
                 </div>
                 <div class="col-xl-5 offset-xl-1 col-lg-6 text-center text-lg-start">
                     <span
-                        class="bg-solitude-blue text-uppercase fs-13 ps-25px pe-25px alt-font fw-600 text-base-color lh-40 sm-lh-55 border-radius-100px d-inline-block mb-25px">About
+                        class="bg-solitude-blue text-uppercase fs-13 ps-25px pe-25px alt-font fw-600 text-base-color lh-40 sm-lh-55 border-radius-100px d-inline-block mb-25px">
                         {{ $about->sub_headline }}</span>
                     <h3 class="alt-font text-dark-gray fw-600 ls-minus-1px mb-20px sm-w-85 xs-w-100 mx-auto">
                         {{ $about->main_headline }}
@@ -152,7 +152,7 @@
         style="background-image: url('{{ $globalurl }}{{ $about->background_akhlak }}')" id="ourculture">
         <div class="container">
             <div class="row justify-content-center mb-3">
-                <div class="col-xl-8 col-lg-7 col-md-12 text-center"
+                <div class="col-xl-10 col-lg-10 col-md-12 text-center"
                     data-anime='{ "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <span
                         class="fw-600 ls-1px fs-16 alt-font d-inline-block text-uppercase mb-5px text-base-color">{{ $titles->texttitle }}</span>
@@ -272,7 +272,7 @@
         <div class="container">
             <div class="row justify-content-center align-items-center mb-6 text-center text-lg-start">
                 <div class="row justify-content-center mb-3">
-                    <div class="col-xl-5 col-lg-6 col-sm-8 text-center"
+                    <div class="col-xl-10 col-lg-10 col-sm-12 text-center"
                         data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <h3 class="alt-font text-dark-gray fw-600 ls-minus-2px">
                             DEWAN KOMISARIS DAN DIREKSI
@@ -453,7 +453,7 @@
     <section style="background-color:#f7f7f7 !important;" id="awards">
         <div class="container">
             <div class="row justify-content-center mb-3">
-                <div class="col-xl-8 col-lg-7 col-md-12 text-center"
+                <div class="col-xl-10 col-lg-10 col-sm-12 text-center"
                     data-anime='{ "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <span
                         class="fw-600 ls-1px fs-16 alt-font d-inline-block text-uppercase mb-5px text-base-color">{{ $title3->texttitle }}</span>

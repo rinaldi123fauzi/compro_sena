@@ -117,6 +117,10 @@
         .sectdownstream {
             display: none;
         }
+
+        .sectother {
+            display: none;
+        }
     </style>
 
     <style>
@@ -528,7 +532,7 @@
                         @endforeach
                     </div>
 
-                    <div class="sectother scroll" data-value="3">
+                    <div class="sectother scroll" data-value="4">
                         @foreach ($project as $item)
                             @if ($item->type == 'other')
                                 <div class="row list">
@@ -664,8 +668,8 @@
 
                         @foreach ($clientsleft as $clientleft)
                             <div class="swiper-slide">
-                                <a href="#"><img src="{{ $globalurl }}{{ $clientleft->image }}"
-                                        class="h-70px xs-h-60px" alt="" /></a>
+                                <a><img src="{{ $globalurl }}{{ $clientleft->image }}" class="h-70px xs-h-60px"
+                                        alt="" /></a>
                             </div>
                         @endforeach
 
@@ -681,8 +685,8 @@
 
                         @foreach ($clientsright as $clientright)
                             <div class="swiper-slide">
-                                <a href="#"><img src="{{ $globalurl }}{{ $clientright->image }}"
-                                        class="h-70px xs-h-60px" alt="" /></a>
+                                <a><img src="{{ $globalurl }}{{ $clientright->image }}" class="h-70px xs-h-60px"
+                                        alt="" /></a>
                             </div>
                         @endforeach
 
