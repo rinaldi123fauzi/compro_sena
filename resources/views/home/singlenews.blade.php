@@ -92,8 +92,7 @@
                                             {{ $item->title }}</a>
                                         {!! Str::words($item->content, 10) !!}
                                         <a href="{{ url('detail/' . $item->slug) }}"
-                                            class="card-link alt-font fs-12 text-uppercase text-dark-gray text-dark-gray-hover fw-700">More
-                                            reading<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                            class="card-link alt-font fs-12 text-uppercase text-dark-gray text-dark-gray-hover fw-700">Selengkapnya<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
                                     </div>
                                 </div>
                             </li>
